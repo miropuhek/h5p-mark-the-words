@@ -1,0 +1,100 @@
+{
+  "semantics": [
+    {
+      "label": "Navodilo udeležencem",
+      "description": "Opis reševanja zadane naloge.",
+      "placeholder": "S klikom označi posamezne besede v besedilu."
+    },
+    {
+      "label": "Polje z besedilom",
+      "placeholder": "Pravilni odgovor: *odgovor*.",
+      "description": "",
+      "important": {
+        "description": "<ul><li>Pravilni odgovor se označi z zvezdico (*) pred in za besedo.</li><li>V primeru odgovora z zvezdico, je potrebno tudi zvezdico obdati po enakem principu (npr. *pravilnabeseda*** se na zaslonu izpiše kot pravilnabeseda*).</li><li>Kot pravilne se lahko označijo le besede in ne besedne zveze</li></ul>",
+        "Primer": "Pravilni odgovori so označeni tako: *pravilnabeseda*. Zvezdica se lahko zapiše na naslednji način: *pravilnabeseda***."
+      }
+    },
+    {
+      "label": "Splošna povratna informacija",
+      "fields": [
+        {
+          "widgets": [
+            {
+              "label": "Privzeto"
+            }
+          ],
+          "label": "Določi ločeno povratno informacijo za vsak razpon rezultatov",
+          "description": "Kliknite gumb \"Dodaj razpon\" za dodajanje dodatnih razponov. Primer: 0-20 % Slab rezultat, 21-91 % Povprečen rezultat, 91-100 % Odličen rezultat!",
+          "entity": "razpon",
+          "field": {
+            "fields": [
+              {
+                "label": "Razpon rezultatov"
+              },
+              {},
+              {
+                "label": "Povratna informacija za definiran razpon rezultatov",
+                "placeholder": "Vnesite povratno informacijo"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "label": "Besedilo za gumb \"Preveri\"",
+      "default": "Preveri"
+    },
+    {
+      "label": "Besedilo za gumb \"Poskusi ponovno\"",
+      "default": "Poskusi ponovno"
+    },
+    {
+      "label": "Besedilo za gumb \"Prikaži rešitev\"",
+      "default": "Prikaži rešitev"
+    },
+    {
+      "label": "Nastavitve interakcije",
+      "description": "Nastavitve omogočajo nadzor nad interakcijo aktivnosti za udeležence.",
+      "fields": [
+        {
+          "label": "Omogoči gumb \"Poskusi ponovno\""
+        },
+        {
+          "label": "Omogoči gumb \"Prikaži rešitev\""
+        },
+        {
+          "label": "Omogoči gumb \"Preveri\""
+        },
+        {
+          "label": "Prikaži dosežene točke",
+          "description": "Prikaže dosežene točke pri vsakem oddanem odgovoru."
+        }
+      ]
+    },
+    {
+      "label": "Besedilo za pravilni odgovor",
+      "default": "Pravilno!",
+      "description": "Besedilo označuje pravilni odgovor"
+    },
+    {
+      "label": "Besedilo za nepravilni odgovor",
+      "default": "Nepravilno!",
+      "description": "Besedilo označuje nepravilni odgovor"
+    },
+    {
+      "label": "Besedilo za manjkajoč odgovor",
+      "default": "Missed!",
+      "description": "Besedilo označuje manjkajoč odgovor"
+    },
+    {
+      "label": "Description for Display Solution",
+      "default": "Task is updated to contain the solution.",
+      "description": "This text tells the user that the tasks has been updated with the solution."
+    },
+    {
+      "label": "Textual representation of the score bar for those using a readspeaker",
+      "default": "You got :num out of :total points"
+    }
+  ]
+}
